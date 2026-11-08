@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplos getElementById</title>
+</head>
+<body>
+
+    <h2>Ejemplo 1: Mostrar un mensaje</h2>
+
+    <p id="aviso">Mensaje inicial</p>
+
+    <script>
+        var elemento = document.getElementById("aviso");
+        elemento.textContent = "Hola Estudiantes";
+    </script>
+
+
+    <h2>Ejemplo 2: Cambiar el color de un botón</h2>
+
+    <button id="btn">Haz clic</button>
+
+    <script>
+        document.getElementById("btn").style.backgroundColor =
+        "lightblue";
+    </script>
+
+<br><br>
+<a href="index.html" class="btn btn-primary">
+    Regresar a Index
+</a>
+
+</body>
+</html>
